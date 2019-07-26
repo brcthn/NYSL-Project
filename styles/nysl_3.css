@@ -1,0 +1,335 @@
+body{
+  height:100% ;  
+  width:100% ;
+  
+  
+  
+}
+
+.container{
+    width: 90%;
+    position: relative;
+    
+    margin:auto;
+}
+
+.container img{
+    height: 500px;
+    width:100%;
+    margin:auto;
+    border:2px solid black;
+    border-radius: 30px;
+    
+}
+
+.logo{
+    position: absolute;
+    width: 250px;
+    height:250px ;
+    bottom:155px;
+    z-index: 1;
+}
+
+.container h1{
+position: absolute;
+border:2px solid white;
+border-radius: 30px;
+top:270px;
+right:400px;
+background-color:white ;
+opacity: 0.5;
+
+}
+.box h1{
+    opacity: 0.0;
+}
+
+ul.menu li{
+    float: left;
+    height: 60px;
+    width: 65px;;
+    display:block;
+    font-size: 14px;
+    padding: 0px 15px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px 3px;
+    border-width: 2px;
+    border-radius: 50%;
+    text-align: center;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+    padding: 0px 8px;
+    margin: 3px 3px;
+    line-height: 40px;
+    
+}
+
+.home{
+    
+    height:50px ;
+    width: 50px;
+    position: absolute;
+    top:550px;
+    right: 900px;
+} 
+
+.about{
+    
+    height:50px ;
+    width: 50px;
+    position: absolute;
+    top:550px;
+    right: 800px;
+} 
+
+.contact{
+   
+    height:50px ;
+    width: 50px;
+    position: absolute;
+    top:550px;
+    right:700px;
+}
+
+.gameinfomenu{
+   
+    height:50px ;
+    width: 50px;
+    position: absolute;
+    top:550px;
+    right:600px;
+}
+
+
+.registrationmenu{
+
+    height:50px ;
+    width: 60px;
+    position: absolute;
+    top:550px;
+    right:500px;
+}
+
+.rulesmenu{
+    height:50px ;
+    width: 50px;
+    position: absolute;
+    top:550px;
+    right:400px;
+
+}
+ 
+ul.menu li:hover{
+    background-color: rgb(13, 243, 13);
+}
+
+
+
+.content{
+border: 2px solid black;
+width: 70%;
+margin-top: 80px;
+margin-left:15%;
+
+text-align: center;
+
+}
+.title{
+    
+    text-align: center;
+    margin:30px;
+}
+.title h3{
+    font-weight:100;
+}
+.deneme{
+    margin:0px 300px;
+    font-size:20px;
+
+}
+
+
+  ul{
+    list-style-type: square;
+    
+}  
+
+
+
+ .latin li{
+    list-style-type: lower-latin;
+    
+} 
+
+
+.latin li li{
+    list-style-type: square
+    
+}
+.lowerlatin li{
+    
+    list-style-type: lower-latin;
+}
+
+
+/* table */
+
+#heading{
+    margin:60px;
+     text-align: center;
+    top:40px;
+   
+
+     
+}
+caption{
+    text-align: left;
+    font-size:20px;
+    font-style:italic;
+    margin:5px;
+   
+   
+}
+
+
+
+  #text{
+text-align: left;
+font-style: italic;
+margin-top:10px; 
+margin-bottom: 5px ;
+text-decoration: underline;
+}
+
+   
+
+
+ table{
+     border-collapse: collapse;
+     width: 70%;
+     margin:auto;
+    margin-bottom:10px;
+     margin-top:10px;
+ 
+ }
+ 
+ table, 
+ th,
+ td{
+     /* border-style: solid;  */
+     border-spacing: 2px;
+    
+ }
+ th, td{
+     padding: 7px;
+     text-align: center;
+     padding-top: 3px;
+     font-size: 20px;
+ }
+
+ th{
+     font-size: 20px;
+     text-decoration: underline;
+ }
+ .gamelocation{
+     margin-top:10px;
+     
+ }
+ span{
+     font-weight: bold;
+ }
+
+ #add{
+     padding-top:20px;
+
+
+     padding-bottom:20px;
+ }
+.map{
+    
+     margin-left: 300px;  
+  
+}
+
+
+ footer{
+     margin-left:220px;
+ }
+ tr:nth-child(even){
+    background-color: grey;
+    opacity: 0.5;
+ 
+ }
+.titleregistration {
+    text-align: center
+}
+
+ .registration{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin: auto;
+   height: 800px;
+   width: 1000px;
+   margin-top:50px;
+}
+
+
+
+ .textInput {
+    border:none;
+    border-bottom: 2px solid #000;
+     margin-right:10px;
+    padding-right: 250px;  
+ } 
+ 
+ 
+ .names{
+     display:flex;
+     
+ }
+
+ .second{
+    border:none;
+    border-bottom: 2px solid #000;  
+    padding-right: 760px;
+
+ }
+ .adress{
+    justify-content: center; 
+ }
+
+ 
+
+
+ .third{
+    border:none;
+    border-bottom: 2px solid #000;
+    padding-right: 320px;
+ }
+
+  
+.graderadiobutton{
+    margin-left: 20px
+
+}
+
+.size{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sizediv{
+    width: 38%;
+}
+.send{
+margin-left: 900px;
+margin-top:20px;
+}
